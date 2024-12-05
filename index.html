@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopNow - Home</title>
+  <link rel="stylesheet" href="styles.min.css">
+  <script defer src="script.min.js"></script>
+</head>
+<body>
+  <!-- Shop Name Section -->
+  <header>
+    <div class="shop-name">
+      <h1>ShopNow</h1>
+      <p>Your one-stop destination for amazing products!</p>
+    </div>
+  </header>
+  
+  <!-- Navigation Bar Section -->
+  <nav class="navbar">
+    <div class="logo">ShopNow</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </nav>
+  
+  <!-- Hero Section -->
+  <main>
+    <center>
+    <section class="hero">
+      <h1>Welcome to ShopNow</h1>
+      <p>Find everything you need, all in one place!</p>
+      <a href="products.html" class="cta-button">Shop Now</a>
+    </section>
+    </center>
+    <!-- About Us Section -->
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <p>
+        At ShopNow, we strive to bring you the best online shopping experience. 
+        From high-quality products to unbeatable prices, we aim to make your shopping effortless and enjoyable.
+      </p>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products" id="featured">
+      <h2 align="center">Featured Products</h2>
+      <div class="product-grid">
+        <div class="product-card" data-lazyload>
+          <img data-src="1.jpg" alt="Featured Product 1" class="lazy">
+          <h3>Original Samsung Earphones</h3>
+          <p>$15.00</p>
+        </div>
+        <div class="product-card" data-lazyload>
+          <img data-src="2.jpg" alt="Featured Product 2" class="lazy">
+          <h3>6 Port USB Charger</h3>
+          <p>$25.00</p>
+        </div>
+        <div class="product-card" data-lazyload>
+          <img data-src="3.jpg" alt="Featured Product 3" class="lazy">
+          <h3>65W Charging Station will charge 4 devices together</h3>
+          <p>$35.00</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter" id="newsletter">
+      <h2>Stay Updated</h2>
+      <p>Subscribe to our newsletter and get exclusive deals and offers directly in your inbox.</p>
+      <form action="subscribe.php" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 ShopNow | All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

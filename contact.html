@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopNow - Contact</title>
+  <link rel="stylesheet" href="styles.min.css">
+  <script defer src="script.min.js"></script>
+</head>
+<body>
+  <!-- Shop Name Section -->
+  <header>
+    <div class="shop-name">
+      <h1>ShopNow</h1>
+      <p>Your one-stop destination for amazing products!</p>
+    </div>
+  </header>
+
+  <!-- Navigation Bar Section -->
+  <nav class="navbar">
+    <div class="logo">ShopNow</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Main Content -->
+  <main class="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Reach us at:</p>
+    <ul>
+      <li>Email: support@shopnow.com</li>
+      <li>Phone: +1-234-567-890</li>
+      <li>Address: 123 E-commerce Lane, ShopCity, SC 45678</li>
+    </ul>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 ShopNow | All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
